@@ -1,0 +1,8 @@
+D:\Projects\Class and objects\11. Interface Payable\bin\Debug\_11.Interface_Payable.exe.config
+D:\Projects\Class and objects\11. Interface Payable\bin\Debug\_11.Interface_Payable.exe
+D:\Projects\Class and objects\11. Interface Payable\bin\Debug\_11.Interface_Payable.pdb
+D:\Projects\Class and objects\11. Interface Payable\bin\Debug\_09.Class_Person.exe
+D:\Projects\Class and objects\11. Interface Payable\bin\Debug\_09.Class_Person.pdb
+D:\Projects\Class and objects\11. Interface Payable\obj\Debug\11. Interface Payable.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\11. Interface Payable\obj\Debug\_11.Interface_Payable.exe
+D:\Projects\Class and objects\11. Interface Payable\obj\Debug\_11.Interface_Payable.pdb

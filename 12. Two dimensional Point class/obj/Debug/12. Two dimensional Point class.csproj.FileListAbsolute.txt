@@ -1,0 +1,6 @@
+D:\Projects\Class and objects\12. Two dimensional Point class\bin\Debug\_12.Two_dimensional_Point_class.exe.config
+D:\Projects\Class and objects\12. Two dimensional Point class\bin\Debug\_12.Two_dimensional_Point_class.exe
+D:\Projects\Class and objects\12. Two dimensional Point class\bin\Debug\_12.Two_dimensional_Point_class.pdb
+D:\Projects\Class and objects\12. Two dimensional Point class\obj\Debug\12. Two dimensional Point class.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\12. Two dimensional Point class\obj\Debug\_12.Two_dimensional_Point_class.exe
+D:\Projects\Class and objects\12. Two dimensional Point class\obj\Debug\_12.Two_dimensional_Point_class.pdb

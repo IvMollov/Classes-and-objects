@@ -1,0 +1,6 @@
+D:\Projects\Class and objects\04. Surface of a triangle\bin\Debug\_04.Surface_of_a_triangle.exe.config
+D:\Projects\Class and objects\04. Surface of a triangle\bin\Debug\_04.Surface_of_a_triangle.exe
+D:\Projects\Class and objects\04. Surface of a triangle\bin\Debug\_04.Surface_of_a_triangle.pdb
+D:\Projects\Class and objects\04. Surface of a triangle\obj\Debug\_04.Surface_of_a_triangle.exe
+D:\Projects\Class and objects\04. Surface of a triangle\obj\Debug\_04.Surface_of_a_triangle.pdb
+D:\Projects\Class and objects\04. Surface of a triangle\obj\Debug\04. Surface of a triangle.csprojResolveAssemblyReference.cache

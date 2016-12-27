@@ -1,0 +1,5 @@
+D:\Projects\Class and objects\06. Positive integer\bin\Debug\_06.Positive_integer.exe.config
+D:\Projects\Class and objects\06. Positive integer\bin\Debug\_06.Positive_integer.exe
+D:\Projects\Class and objects\06. Positive integer\bin\Debug\_06.Positive_integer.pdb
+D:\Projects\Class and objects\06. Positive integer\obj\Debug\_06.Positive_integer.exe
+D:\Projects\Class and objects\06. Positive integer\obj\Debug\_06.Positive_integer.pdb

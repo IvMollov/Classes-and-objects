@@ -1,0 +1,5 @@
+D:\Projects\Class and objects\02. 10 random values\bin\Debug\02. 10 random values.exe.config
+D:\Projects\Class and objects\02. 10 random values\bin\Debug\02. 10 random values.exe
+D:\Projects\Class and objects\02. 10 random values\bin\Debug\02. 10 random values.pdb
+D:\Projects\Class and objects\02. 10 random values\obj\Debug\02. 10 random values.exe
+D:\Projects\Class and objects\02. 10 random values\obj\Debug\02. 10 random values.pdb

@@ -1,0 +1,6 @@
+D:\Projects\Class and objects\07. System.DateTime structure\bin\Debug\_07.System.DateTime_structure.exe.config
+D:\Projects\Class and objects\07. System.DateTime structure\bin\Debug\_07.System.DateTime_structure.exe
+D:\Projects\Class and objects\07. System.DateTime structure\bin\Debug\_07.System.DateTime_structure.pdb
+D:\Projects\Class and objects\07. System.DateTime structure\obj\Debug\_07.System.DateTime_structure.exe
+D:\Projects\Class and objects\07. System.DateTime structure\obj\Debug\_07.System.DateTime_structure.pdb
+D:\Projects\Class and objects\07. System.DateTime structure\obj\Debug\07. System.DateTime structure.csprojResolveAssemblyReference.cache
