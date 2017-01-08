@@ -8,7 +8,7 @@ namespace _07.Arithmetical_expression
 {
     class Program
     {
-        static string[] theOperators = new string[] { "+", "-", "*", "/", "^"};
+        static string[] theOperators = new string[] { "+", "-", "*", "/", "^", "#", "$"};
 
         public static void Main()
         {
@@ -17,6 +17,17 @@ namespace _07.Arithmetical_expression
             Console.Write("Enter expression: ");
             string arithmetical = Console.ReadLine();
             string[] arithmeticalExpression = arithmetical.Split(' ');
+            for (int i = 0; i < arithmeticalExpression.Length; i++)
+            {
+                if(arithmeticalExpression[i] == "sqrt")
+                {
+                    arithmeticalExpression[i] = "#";
+                }
+                else if(arithmeticalExpression[i] == "ln")
+                {
+                    arithmeticalExpression[i] = "$";
+                }
+            }
             string expression = ShuntingYardAlgorithm(arithmeticalExpression);
             string[] reversePolishNotation = expression.Split(' ');
             Stack<double> stack = new Stack<double>();
@@ -142,11 +153,16 @@ namespace _07.Arithmetical_expression
             {
                 result = stack.Pop();
                 double pow = stack.Pop();
-                double number = result;
-                for (int j = 1; j < pow; j++)
+                if(pow == 0)
                 {
-                    result *= number;
+                    return 1;
                 }
+                if (result == 0)
+                {
+                    return 0;
+                }
+
+                result = Math.Pow(result, pow);
             }
             return result;
         }
