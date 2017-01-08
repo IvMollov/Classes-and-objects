@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using _09.Class_Person;
 namespace _11.Interface_Payable
 {
-    class Employee : Person, Payable
+   public class Employee : Person, Payable
     {
-        double salary;
-        string mailingAddress;
+       private double salary;
+       private string mailingAddress;
 
         public double Salary
         {

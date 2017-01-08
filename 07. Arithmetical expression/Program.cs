@@ -8,26 +8,28 @@ namespace _07.Arithmetical_expression
 {
     class Program
     {
-        static char[] theOperators = new char[] { '+', '-', '*', '/', '^', '(', ')' };
+        static string[] theOperators = new string[] { "+", "-", "*", "/", "^", "(", ")" };
         public static void Main()
         {
             double values = 0;
             int operators = 0;
             Console.Write("Enter expression: ");
-            string arithmethical = Console.ReadLine();
-            string expression = ShuntingYardAlgorithm(arithmethical); 
+            string arithmetical = Console.ReadLine();
+            string[] arithmeticalExpression = arithmetical.Split(' ');
+            string expression = ShuntingYardAlgorithm(arithmeticalExpression);
+            string[] reversePolishNotation = expression.Split(' ');
             Stack<double> stack = new Stack<double>();
             Stack<double> stackRPN = new Stack<double>();
-            for (int i = 0; i < expression.Length; i++)
+            for (int i = 0; i < reversePolishNotation.Length; i++)
             {
-                if (IsValue(expression[i].ToString()))
+                if (IsValue(reversePolishNotation[i]))
                 {
-                    values = (double)Char.GetNumericValue(expression[i]);
+                    values = Convert.ToDouble(reversePolishNotation[i]);
                     stackRPN.Push(values);
                 }
                 else
                 {
-                    operators = GetArguments(expression[i]);
+                    operators = GetArguments(reversePolishNotation[i]);
                     try
                     {
                         if (IsInputSufficient(stackRPN, operators))
@@ -36,7 +38,7 @@ namespace _07.Arithmetical_expression
                             {
                                 stack.Push(stackRPN.Pop());
                             }
-                            double result = GetCalculation(expression[i], stack);
+                            double result = GetCalculation(reversePolishNotation[i], stack);
                             stackRPN.Push(result);
                         }
                     }
@@ -47,9 +49,10 @@ namespace _07.Arithmetical_expression
                     }
                 }
             }
+            
             if (stackRPN.Count == 1)
             {
-                Console.WriteLine("{0} = {1}", expression, stackRPN.Pop());
+                Console.Write(" = {0}", stackRPN.Pop());
                 Console.ReadLine();
                 return;
             }
@@ -71,28 +74,28 @@ namespace _07.Arithmetical_expression
             return false;
         }
 
-        public static int GetArguments(char operators)
+        public static int GetArguments(string operators)
         {
             int neededOperators = 0;
             for (int i = 0; i < theOperators.Length; i++)
             {
-                if (theOperators[i] == '+')
+                if (theOperators[i] == "+")
                 {
                     neededOperators = 2;
                 }
-                else if (theOperators[i] == '-')
+                else if (theOperators[i] == "-")
                 {
                     neededOperators = 2;
                 }
-                else if (theOperators[i] == '/')
+                else if (theOperators[i] == "/")
                 {
                     neededOperators = 2;
                 }
-                else if (theOperators[i] == '*')
+                else if (theOperators[i] == "*")
                 {
                     neededOperators = 2;
                 }
-                else if (theOperators[i] == '*')
+                else if (theOperators[i] == "^")
                 {
                     neededOperators = 2;
                 }
@@ -100,17 +103,17 @@ namespace _07.Arithmetical_expression
             return neededOperators;
         }
 
-        public static double GetCalculation(char operators, Stack<double> stack)
+        public static double GetCalculation(string operators, Stack<double> stack)
         {
             double result = 0;
-            if (operators == '+')
+            if (operators == "+")
             {
                 while (stack.Count> 0)
                 {
                     result += stack.Pop();
                 }
             }
-            else if (operators == '-')
+            else if (operators == "-")
             {
                 result = stack.Pop();
                 while (stack.Count > 0)
@@ -118,7 +121,7 @@ namespace _07.Arithmetical_expression
                     result = result - stack.Pop();
                 }
             }
-            else if (operators == '*')
+            else if (operators == "*")
             {
                 result = 1;
                 while (stack.Count > 0)
@@ -126,7 +129,7 @@ namespace _07.Arithmetical_expression
                     result *= stack.Pop();
                 }
             }
-            else if (operators == '/')
+            else if (operators == "/")
             {
                 result = stack.Pop();
                 while (stack.Count > 0)
@@ -134,7 +137,7 @@ namespace _07.Arithmetical_expression
                     result = result / stack.Pop();
                 }
             }
-            else if (operators == '^')
+            else if (operators == "^")
             {
                 result = stack.Pop();
                 double pow = stack.Pop();
@@ -156,24 +159,24 @@ namespace _07.Arithmetical_expression
             return true;
         }
 
-        public static string ShuntingYardAlgorithm(string expression)
+        public static string ShuntingYardAlgorithm(string[] expression)
         {
-            Queue<char> output = new Queue<char>();
-            Stack<char> operatorStack = new Stack<char>();
+            StringBuilder output = new StringBuilder();
+            Stack<string> operatorStack = new Stack<string>();
             Stack<int> stackPrecedence = new Stack<int>();
             int expressionPrecedence = 0;
             for (int i = 0; i < expression.Length; i++)
             {
                 if (IsValue(expression[i].ToString()))
                 {
-                    output.Enqueue(expression[i]);
+                    output.Append(expression[i]);
+                    output.Append(" ");
                 }
                 else
                 {
                     if (operatorStack.Count == 0)
                     {
-                        operatorStack.Push(expression[i]);
-                        
+                        operatorStack.Push(expression[i]);                        
                     }
                     else
                     {
@@ -190,13 +193,22 @@ namespace _07.Arithmetical_expression
                                         break;
                                     }
                                 }
-                                if (stackPrecedence.Peek() > expressionPrecedence)
+                                if ((stackPrecedence.Peek() <= 1 && expressionPrecedence <= 1) || 
+                                    (stackPrecedence.Peek() <= 3 && expressionPrecedence <= 3 && stackPrecedence.Peek() > 1 && expressionPrecedence > 1))
+                                {
+                                    output.Append(operatorStack.Pop());
+                                    output.Append(" ");
+                                    stackPrecedence.Pop();
+                                    operatorStack.Push(expression[i]);
+                                }
+                                   else if (stackPrecedence.Peek() > expressionPrecedence)
                                 {
                                     while (true)
                                     {
                                         if (stackPrecedence.Peek() > expressionPrecedence)
                                         {
-                                            output.Enqueue(operatorStack.Pop());
+                                            output.Append(operatorStack.Pop());
+                                            output.Append(" ");
                                             stackPrecedence.Pop();
                                             if(stackPrecedence.Count == 0)
                                             {
@@ -222,14 +234,17 @@ namespace _07.Arithmetical_expression
             }
             while (operatorStack.Count > 0)
             {
-                output.Enqueue(operatorStack.Pop());
+                if(operatorStack.Count == 1)
+                {
+                    output.Append(operatorStack.Pop());
+                }
+                else
+                {
+                    output.Append(operatorStack.Pop());
+                    output.Append(" ");
+                }
             }
-            StringBuilder reversePolishNotation = new StringBuilder();
-             while(output.Count > 0)
-            {
-                reversePolishNotation.Append(output.Dequeue());
-            }
-            return reversePolishNotation.ToString();
+            return output.ToString();
         }
     }
 

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace _12.Two_dimensional_Point_class
 {
-    class Point
+   public class Point
     {
-        double x;
-        double y;
+       private double x;
+       private double y;
 
         public Point(double x, double y)
         {
