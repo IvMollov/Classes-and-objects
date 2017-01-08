@@ -8,7 +8,8 @@ namespace _07.Arithmetical_expression
 {
     class Program
     {
-        static string[] theOperators = new string[] { "+", "-", "*", "/", "^", "(", ")" };
+        static string[] theOperators = new string[] { "+", "-", "*", "/", "^"};
+
         public static void Main()
         {
             double values = 0;
@@ -52,7 +53,7 @@ namespace _07.Arithmetical_expression
             
             if (stackRPN.Count == 1)
             {
-                Console.Write(" = {0}", stackRPN.Pop());
+                Console.Write("{0} = {1}", arithmetical, stackRPN.Pop());
                 Console.ReadLine();
                 return;
             }
@@ -176,7 +177,24 @@ namespace _07.Arithmetical_expression
                 {
                     if (operatorStack.Count == 0)
                     {
-                        operatorStack.Push(expression[i]);                        
+                        operatorStack.Push(expression[i]);
+                    }
+                    else if (expression[i] == "(" || operatorStack.Peek() == "(")
+                    {
+                        operatorStack.Push(expression[i]);
+                    }
+                    else if(expression[i] == ")")
+                    {
+                        while(true)
+                        {
+                            if (operatorStack.Peek() == "(")
+                            {
+                                operatorStack.Pop();
+                                break;
+                            }
+                            output.Append(operatorStack.Pop());
+                            output.Append(" ");
+                        }                                            
                     }
                     else
                     {
@@ -194,7 +212,8 @@ namespace _07.Arithmetical_expression
                                     }
                                 }
                                 if ((stackPrecedence.Peek() <= 1 && expressionPrecedence <= 1) || 
-                                    (stackPrecedence.Peek() <= 3 && expressionPrecedence <= 3 && stackPrecedence.Peek() > 1 && expressionPrecedence > 1))
+                                    (stackPrecedence.Peek() <= 3 && expressionPrecedence <= 3 && 
+                                    stackPrecedence.Peek() > 1 && expressionPrecedence > 1))
                                 {
                                     output.Append(operatorStack.Pop());
                                     output.Append(" ");
@@ -234,7 +253,7 @@ namespace _07.Arithmetical_expression
             }
             while (operatorStack.Count > 0)
             {
-                if(operatorStack.Count == 1)
+                if (operatorStack.Count == 1)
                 {
                     output.Append(operatorStack.Pop());
                 }
@@ -247,5 +266,4 @@ namespace _07.Arithmetical_expression
             return output.ToString();
         }
     }
-
 }
