@@ -4,3 +4,6 @@ D:\Projects\Class and objects\13. Stack\bin\Debug\_13.Stack.pdb
 D:\Projects\Class and objects\13. Stack\obj\Debug\13. Stack.csprojResolveAssemblyReference.cache
 D:\Projects\Class and objects\13. Stack\obj\Debug\_13.Stack.exe
 D:\Projects\Class and objects\13. Stack\obj\Debug\_13.Stack.pdb
+D:\Projects\Class and objects\Classes-and-objects\13. Stack\bin\Debug\_13.Stack.exe.config
+D:\Projects\Class and objects\Classes-and-objects\13. Stack\obj\Debug\_13.Stack.exe
+D:\Projects\Class and objects\Classes-and-objects\13. Stack\obj\Debug\_13.Stack.pdb

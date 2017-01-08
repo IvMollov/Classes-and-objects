@@ -4,3 +4,9 @@ D:\Projects\Class and objects\10. Exceptions\bin\Debug\_10.Exceptions.pdb
 D:\Projects\Class and objects\10. Exceptions\obj\Debug\10. Exceptions.csprojResolveAssemblyReference.cache
 D:\Projects\Class and objects\10. Exceptions\obj\Debug\_10.Exceptions.exe
 D:\Projects\Class and objects\10. Exceptions\obj\Debug\_10.Exceptions.pdb
+D:\Projects\Class and objects\Classes-and-objects\10. Exceptions\bin\Debug\_10.Exceptions.exe.config
+D:\Projects\Class and objects\Classes-and-objects\10. Exceptions\bin\Debug\_10.Exceptions.exe
+D:\Projects\Class and objects\Classes-and-objects\10. Exceptions\bin\Debug\_10.Exceptions.pdb
+D:\Projects\Class and objects\Classes-and-objects\10. Exceptions\obj\Debug\10. Exceptions.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\10. Exceptions\obj\Debug\_10.Exceptions.exe
+D:\Projects\Class and objects\Classes-and-objects\10. Exceptions\obj\Debug\_10.Exceptions.pdb

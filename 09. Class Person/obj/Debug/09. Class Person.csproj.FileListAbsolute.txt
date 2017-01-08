@@ -4,3 +4,9 @@ D:\Projects\Class and objects\09. Class Person\bin\Debug\_09.Class_Person.pdb
 D:\Projects\Class and objects\09. Class Person\obj\Debug\09. Class Person.csprojResolveAssemblyReference.cache
 D:\Projects\Class and objects\09. Class Person\obj\Debug\_09.Class_Person.exe
 D:\Projects\Class and objects\09. Class Person\obj\Debug\_09.Class_Person.pdb
+D:\Projects\Class and objects\Classes-and-objects\09. Class Person\bin\Debug\_09.Class_Person.exe.config
+D:\Projects\Class and objects\Classes-and-objects\09. Class Person\obj\Debug\_09.Class_Person.exe
+D:\Projects\Class and objects\Classes-and-objects\09. Class Person\obj\Debug\_09.Class_Person.pdb
+D:\Projects\Class and objects\Classes-and-objects\09. Class Person\bin\Debug\_09.Class_Person.exe
+D:\Projects\Class and objects\Classes-and-objects\09. Class Person\bin\Debug\_09.Class_Person.pdb
+D:\Projects\Class and objects\Classes-and-objects\09. Class Person\obj\Debug\09. Class Person.csprojResolveAssemblyReference.cache

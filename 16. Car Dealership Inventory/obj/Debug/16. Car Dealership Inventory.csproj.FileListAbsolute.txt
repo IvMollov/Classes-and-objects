@@ -4,3 +4,6 @@ D:\Projects\Class and objects\16. Car Dealership Inventory\bin\Debug\_16.Car_Dea
 D:\Projects\Class and objects\16. Car Dealership Inventory\obj\Debug\_16.Car_Dealership_Inventory.exe
 D:\Projects\Class and objects\16. Car Dealership Inventory\obj\Debug\_16.Car_Dealership_Inventory.pdb
 D:\Projects\Class and objects\16. Car Dealership Inventory\obj\Debug\16. Car Dealership Inventory.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\16. Car Dealership Inventory\bin\Debug\_16.Car_Dealership_Inventory.exe.config
+D:\Projects\Class and objects\Classes-and-objects\16. Car Dealership Inventory\obj\Debug\_16.Car_Dealership_Inventory.exe
+D:\Projects\Class and objects\Classes-and-objects\16. Car Dealership Inventory\obj\Debug\_16.Car_Dealership_Inventory.pdb

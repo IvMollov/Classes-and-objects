@@ -4,3 +4,9 @@ D:\Projects\Class and objects\14. Sorter\bin\Debug\_14.Sorter.pdb
 D:\Projects\Class and objects\14. Sorter\obj\Debug\14. Sorter.csprojResolveAssemblyReference.cache
 D:\Projects\Class and objects\14. Sorter\obj\Debug\_14.Sorter.exe
 D:\Projects\Class and objects\14. Sorter\obj\Debug\_14.Sorter.pdb
+D:\Projects\Class and objects\Classes-and-objects\14. Sorter\bin\Debug\_14.Sorter.exe.config
+D:\Projects\Class and objects\Classes-and-objects\14. Sorter\bin\Debug\_14.Sorter.exe
+D:\Projects\Class and objects\Classes-and-objects\14. Sorter\bin\Debug\_14.Sorter.pdb
+D:\Projects\Class and objects\Classes-and-objects\14. Sorter\obj\Debug\14. Sorter.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\14. Sorter\obj\Debug\_14.Sorter.exe
+D:\Projects\Class and objects\Classes-and-objects\14. Sorter\obj\Debug\_14.Sorter.pdb

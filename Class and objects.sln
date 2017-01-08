@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Searcher", "15. Searche
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Car Dealership Inventory", "16. Car Dealership Inventory\16. Car Dealership Inventory.csproj", "{0B8DFC72-33AC-4225-9AFF-381D6A5D8698}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Arithmetical expression", "07. Arithmetical expression\07. Arithmetical expression.csproj", "{0E24C00B-AC2A-4FFD-9E45-590D42FC738A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0B8DFC72-33AC-4225-9AFF-381D6A5D8698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8DFC72-33AC-4225-9AFF-381D6A5D8698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8DFC72-33AC-4225-9AFF-381D6A5D8698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E24C00B-AC2A-4FFD-9E45-590D42FC738A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E24C00B-AC2A-4FFD-9E45-590D42FC738A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E24C00B-AC2A-4FFD-9E45-590D42FC738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E24C00B-AC2A-4FFD-9E45-590D42FC738A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

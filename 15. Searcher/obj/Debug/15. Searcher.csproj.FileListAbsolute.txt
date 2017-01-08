@@ -4,3 +4,9 @@ D:\Projects\Class and objects\15. Searcher\bin\Debug\_15.Searcher.pdb
 D:\Projects\Class and objects\15. Searcher\obj\Debug\15. Searcher.csprojResolveAssemblyReference.cache
 D:\Projects\Class and objects\15. Searcher\obj\Debug\_15.Searcher.exe
 D:\Projects\Class and objects\15. Searcher\obj\Debug\_15.Searcher.pdb
+D:\Projects\Class and objects\Classes-and-objects\15. Searcher\bin\Debug\_15.Searcher.exe.config
+D:\Projects\Class and objects\Classes-and-objects\15. Searcher\bin\Debug\_15.Searcher.exe
+D:\Projects\Class and objects\Classes-and-objects\15. Searcher\bin\Debug\_15.Searcher.pdb
+D:\Projects\Class and objects\Classes-and-objects\15. Searcher\obj\Debug\15. Searcher.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\15. Searcher\obj\Debug\_15.Searcher.exe
+D:\Projects\Class and objects\Classes-and-objects\15. Searcher\obj\Debug\_15.Searcher.pdb

@@ -3,3 +3,9 @@ D:\Projects\Class and objects\05. Workdays\bin\Debug\_05.Workdays.exe
 D:\Projects\Class and objects\05. Workdays\bin\Debug\_05.Workdays.pdb
 D:\Projects\Class and objects\05. Workdays\obj\Debug\_05.Workdays.exe
 D:\Projects\Class and objects\05. Workdays\obj\Debug\_05.Workdays.pdb
+D:\Projects\Class and objects\Classes-and-objects\05. Workdays\bin\Debug\_05.Workdays.exe.config
+D:\Projects\Class and objects\Classes-and-objects\05. Workdays\bin\Debug\_05.Workdays.exe
+D:\Projects\Class and objects\Classes-and-objects\05. Workdays\bin\Debug\_05.Workdays.pdb
+D:\Projects\Class and objects\Classes-and-objects\05. Workdays\obj\Debug\05. Workdays.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\05. Workdays\obj\Debug\_05.Workdays.exe
+D:\Projects\Class and objects\Classes-and-objects\05. Workdays\obj\Debug\_05.Workdays.pdb

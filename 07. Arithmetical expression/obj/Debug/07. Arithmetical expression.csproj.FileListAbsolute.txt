@@ -1,0 +1,6 @@
+D:\Projects\Class and objects\Classes-and-objects\07. Arithmetical expression\bin\Debug\_07.Arithmetical_expression.exe.config
+D:\Projects\Class and objects\Classes-and-objects\07. Arithmetical expression\bin\Debug\_07.Arithmetical_expression.exe
+D:\Projects\Class and objects\Classes-and-objects\07. Arithmetical expression\bin\Debug\_07.Arithmetical_expression.pdb
+D:\Projects\Class and objects\Classes-and-objects\07. Arithmetical expression\obj\Debug\07. Arithmetical expression.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\07. Arithmetical expression\obj\Debug\_07.Arithmetical_expression.exe
+D:\Projects\Class and objects\Classes-and-objects\07. Arithmetical expression\obj\Debug\_07.Arithmetical_expression.pdb

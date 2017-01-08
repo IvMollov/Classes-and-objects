@@ -3,3 +3,9 @@ D:\Projects\Class and objects\03. Day of week\bin\Debug\_03.Day_of_week.exe
 D:\Projects\Class and objects\03. Day of week\bin\Debug\_03.Day_of_week.pdb
 D:\Projects\Class and objects\03. Day of week\obj\Debug\_03.Day_of_week.exe
 D:\Projects\Class and objects\03. Day of week\obj\Debug\_03.Day_of_week.pdb
+D:\Projects\Class and objects\Classes-and-objects\03. Day of week\bin\Debug\_03.Day_of_week.exe.config
+D:\Projects\Class and objects\Classes-and-objects\03. Day of week\bin\Debug\_03.Day_of_week.exe
+D:\Projects\Class and objects\Classes-and-objects\03. Day of week\bin\Debug\_03.Day_of_week.pdb
+D:\Projects\Class and objects\Classes-and-objects\03. Day of week\obj\Debug\03. Day of week.csprojResolveAssemblyReference.cache
+D:\Projects\Class and objects\Classes-and-objects\03. Day of week\obj\Debug\_03.Day_of_week.exe
+D:\Projects\Class and objects\Classes-and-objects\03. Day of week\obj\Debug\_03.Day_of_week.pdb
